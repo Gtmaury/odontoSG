@@ -19,7 +19,7 @@ html,
 body {
   scroll-behavior: smooth;
   scroll-padding-top: 80px; /* Offset for fixed header */
-  overflow-x: hidden !important;
+  overflow-x: hidden;
 }
 
 body {
@@ -424,14 +424,34 @@ img {
     gap: 20px;
   }
   .service-card {
-    min-width: 0 !important;
-    max-width: 100% !important;
-    width: 100% !important;
+    min-width: 0;
+    max-width: 100%;
+    width: 100%;
   }
   .service-card img {
-    width: 100% !important;
-    max-width: 100% !important;
-    height: auto !important;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .contact-map iframe {
+    width: 100%;
+    min-width: 0;
+    max-width: 100vw;
+    height: 220px;
+    display: block;
+    margin: 0 auto;
+  }
+  .contact-info p {
+    word-break: break-all;
+    font-size: 1rem;
+    line-height: 1.4;
+    display: block;
+    margin-bottom: 18px;
+  }
+  .contact-info a {
+    display: inline-block;
+    word-break: break-all;
+    font-size: 1rem;
   }
 }
 
