@@ -14,9 +14,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
+
+html,
+body {
   scroll-behavior: smooth;
   scroll-padding-top: 80px; /* Offset for fixed header */
+  overflow-x: hidden !important;
 }
 
 body {
@@ -417,18 +420,18 @@ img {
     text-align: center;
   }
   .services-grid {
-    display: grid;
     grid-template-columns: 1fr;
-    gap: 20px; /* or your preferred gap */
+    gap: 20px;
   }
   .service-card {
-    min-width: 0;
-    max-width: 100%;
-    width: 100%;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
   }
   .service-card img {
-    height: auto;
-    max-width: 100%;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
   }
 }
 
