@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consultorio Dental ODONTOSG - Dra. Angélica Sánchez</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/image (2).png"
+      style="border-radius: 100%"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <a href="#home" class="nav-logo">
+            <!-- Use the logo image you have -->
+            <img src="./assets/logo.png" alt="Logo Angélica Sánchez" />
+          </a>
+          <!-- Hamburger Menu Button -->
+          <button class="hamburger" id="hamburger-button" aria-label="menu">
+            <i class="fas fa-bars"></i>
+          </button>
+          <!-- Navigation Menu -->
+          <ul class="nav-menu" id="nav-menu">
+            <li class="nav-item">
+              <a href="#about" class="nav-link">Sobre Mí</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link-button">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="hero-content">
+        <h1>Creando Sonrisas Saludables y Felices</h1>
+        <p>
+          Tu salud dental es nuestra prioridad. Ofrecemos atención experta y
+          personalizada.
+        </p>
+        <a href="#contact" class="btn btn-primary">Agenda tu Cita</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container about-container">
+        <div class="about-image">
+          <!-- Use a photo of the doctor -->
+          <img
+            src="./assets/doctor presentation img.jpeg"
+            alt="Dra. Angélica Sánchez"
+          />
+        </div>
+        <div class="about-content">
+          <h2>Dra. Angélica Sánchez</h2>
+          <p>
+            Odontóloga comprometida con el bienestar y la sonrisa de mis
+            pacientes. Mi objetivo es brindar una atención de alta calidad,
+            utilizando las mejores tecnologías y un trato cálido y humano.
+          </p>
+          <p>
+            Mi especialidad es la <strong>Endodoncia</strong> (tratamientos de
+            conducto) y la <strong>Odontopediatría</strong>, cuidando la salud
+            dental de los más pequeños.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+      <div class="container">
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <div class="services-grid">
+          <!-- Service Card 1: Endodoncia -->
+          <div class="service-card">
+            <img
+              src="./assets/Endodoncia.jpeg"
+              alt="Endodoncia (Tratamiento de Conducto)"
+            />
+            <div class="service-card-content">
+              <h3>Endodoncia</h3>
+              <p>
+                Aliviamos el dolor y salvamos tus dientes con tratamientos de
+                conducto precisos y efectivos.
+              </p>
+            </div>
+          </div>
+          <!-- Service Card 2: Odontopediatría -->
+          <div class="service-card Odontopediatría-img">
+            <img src="./assets/Odontopediatría.jpeg" alt="Odontopediatría" />
+            <div class="service-card-content">
+              <h3>Odontopediatría</h3>
+              <p>
+                Cuidado dental especializado y amigable para niños, asegurando
+                una experiencia positiva.
+              </p>
+            </div>
+          </div>
+          <!-- Service Card 3: Restauraciones -->
+          <div class="service-card">
+            <img
+              src="./assets/Restauraciones.jpeg"
+              alt="Restauraciones y Estética Dental"
+            />
+            <div class="service-card-content">
+              <h3>Restauraciones y Estética</h3>
+              <p>
+                Mejoramos la apariencia de tu sonrisa con restauraciones
+                estéticas de alta calidad.
+              </p>
+            </div>
+          </div>
+          <!-- Service Card 4: Prótesis -->
+          <div class="service-card">
+            <img src="./assets/protesis.jpeg" alt="Prótesis Dentales" />
+            <div class="service-card-content">
+              <h3>Prótesis Dentales</h3>
+              <p>
+                Recupera la funcionalidad y estética de tu boca con prótesis
+                fijas y removibles.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="other-services">
+          <p>
+            También ofrecemos:
+            <strong
+              >Extracciones de cordales, Ortodoncia y Limpiezas
+              Dentales.</strong
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2 class="section-title">Contáctanos</h2>
+        <p class="contact-subtitle">
+          Estamos listos para atenderte. ¡Agenda tu cita hoy mismo!
+        </p>
+        <div class="contact-details">
+          <div class="contact-info">
+            <h3>Información de Contacto</h3>
+            <p>
+              <i class="fas fa-phone"></i> <strong>Teléfono:</strong>
+         
+                <a
+            href="https://wa.me/584144217916"
+            >0414-4217916</a
+            </p>
+            <p>
+              <i class="fas fa-envelope"></i> <strong>Email:</strong>
+              <a href="mailto:angelicasanchez1770@gmail.com"
+                >angelicasanchez1770@gmail.com</a
+              >
+            </p>
+            <p>
+              <i class="fab fa-instagram"></i> <strong>Instagram:</strong>
+              <a
+                href="https://www.instagram.com/od.angelicasanchez/"
+                target="_blank"
+                >@od.angelicasanchez</a
+              >
+            </p>
+            <p>
+              <i class="fas fa-map-marker-alt"></i>
+              <strong>Dirección:</strong> Av. Bolívar, Local Sucre n° 04, Sector
+              Casco de San Joaquín, Edo. Carabobo, Venezuela.
+            </p>
+          </div>
+          <div class="contact-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31408.87944785418!2d-67.79740238776468!3d10.252717096450782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sAv.%20Bol%C3%ADvar%2C%20Local%20Sucre%20n%C2%B0%2004%2C%20Sector%20Casco%20de%20San%20Joaqu%C3%ADn%2C%20Edo.%20Carabobo%2C%20Venezuela.!5e0!3m2!1ses-419!2sve!4v1750644787144!5m2!1ses-419!2sve"
+              width="100%"
+              height="350"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-logo">
+          <!-- Use the other logo image you have -->
+          <img
+            src="./assets/logo.png"
+            alt="Logo Consultorio Dental ODONTOSG"
+            onerror="this.onerror=null;this.src='https://placehold.co/80x80/EEEEEE/333333?text=Logo';"
+          />
+          <p>Consultorio Dental ODONTOSG</p>
+        </div>
+        <div class="footer-contact">
+          <p><strong>Teléfono:</strong> 0414-4217916</p>
+          <p><strong>Ubicación:</strong> San Joaquín, Edo. Carabobo</p>
+        </div>
+        <div class="footer-social">
+          <a
+            href="https://www.instagram.com/od.angelicasanchez/"
+            target="_blank"
+            >Instagram</a
+          >
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; 2025 Consultorio Dental ODONTOSG | Dra. Angélica Sánchez. Todos
+          los derechos reservados. Creado por
+        </p>
+      </div>
+    </footer>
+
+    <!-- JavaScript for Hamburger Menu -->
+    <script>
+      const hamburgerButton = document.getElementById("hamburger-button");
+      const navMenu = document.getElementById("nav-menu");
+      const navLinks = navMenu.querySelectorAll(".nav-link, .nav-link-button");
+      const hamburgerIcon = hamburgerButton.querySelector("i");
+
+      // Toggle menu on hamburger click
+      hamburgerButton.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+        // Toggle icon between bars and times (X)
+        if (navMenu.classList.contains("active")) {
+          hamburgerIcon.classList.remove("fa-bars");
+          hamburgerIcon.classList.add("fa-times");
+        } else {
+          hamburgerIcon.classList.remove("fa-times");
+          hamburgerIcon.classList.add("fa-bars");
+        }
+      });
+
+      // Close menu when a link is clicked
+      navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          if (navMenu.classList.contains("active")) {
+            navMenu.classList.remove("active");
+            hamburgerIcon.classList.remove("fa-times");
+            hamburgerIcon.classList.add("fa-bars");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

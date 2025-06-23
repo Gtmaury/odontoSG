@@ -1,0 +1,1 @@
+An static web page for a dentist, with responsive design
