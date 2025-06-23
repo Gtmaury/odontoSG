@@ -305,6 +305,10 @@ img {
   color: #ccc;
   padding-top: 50px;
 }
+.footer a {
+  color: #ccc;
+  padding-top: 50px;
+}
 
 .footer-container {
   display: flex;
